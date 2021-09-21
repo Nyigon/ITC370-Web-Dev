@@ -1,0 +1,40 @@
+/* Kevin Lee Date: 9/21/2021 About a company */
+nav {
+    font-size: 70px;
+    margin: 0px;
+    text-align: center;
+}
+h1{
+  color: red;
+    font-size: 70px;
+    margin: 0px;
+    text-align: center;
+}
+* {
+margin:0;
+padding: 0 20px;
+}
+body {
+background-color: black;
+color: red;
+text-align: center;
+}
+ul li {
+list-style: none;
+display: inline-block;
+line-height: 100px;
+}
+ul li a {
+font-size: 16px;
+font-family: arial;
+color: white
+
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 0px;
+  }
