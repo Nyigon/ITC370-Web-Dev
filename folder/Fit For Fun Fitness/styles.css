@@ -1,0 +1,53 @@
+/* Kevin Lee Date: 10/5/2021 Fit for Fun Fitness Club */
+body {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  color:black;
+  display: grid;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 30px;
+}
+
+h3 {
+  padding: 20px;
+  font-size: 30px;
+}
+
+nav ul {
+  display: flex;
+  list-style:none;
+  background: blue;
+}
+
+nav a {
+  float: left;
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  display: block;
+  padding: 25px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 4%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.39);
+  color: blue;
+  text-align: center;
+}
