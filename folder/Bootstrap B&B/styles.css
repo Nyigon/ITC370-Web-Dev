@@ -1,0 +1,9 @@
+/* <!-- Kevin Lee 11/01/2021 Bootstrap B&B --> */
+footer {
+    text-align: center;
+    padding: 15px;
+}
+.heading {
+    box-shadow: 5px 5px 25px 8px grey;
+    padding: 25px;
+}
