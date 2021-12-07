@@ -1,0 +1,52 @@
+/* Kevin Lee ITC 370 Final Project 12/6/2021  */
+
+body {
+    background-image: url("road.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#red_car {
+    position: relative;
+    bottom: -100px;
+    max-width: 100px;
+    max-height: 150px;
+}
+#black_car {
+    position: relative;
+    bottom: -125px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#redImg {
+    width: 500px;
+}
+
+#blackImg {
+    width: 485px;
+}
+
+#redWinsImg {
+    position: relative;
+    max-width: 400px;
+    max-height: 400px;
+    left: 500px;
+    top: -300px;
+}
+
+#BlackWinsImg {
+    position: relative;
+    max-width: 500px;
+    max-height: 500px;
+    left: 500px;
+    top: -300px;
+}
+
+
+#startButton, #startButtonTwo {
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
