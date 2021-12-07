@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Kevin Lee ITC 370 Final Project 12/6/2021 -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Race</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Setting up my start button and cars -->
+  </head>
+  <body onload="setUp()">
+    <input type="image" alt="StartButton" src="redlight.png" id="startButton" onclick="race()">
+    <input type="image" alt="StartButtonTwo" src="greenlight.png" id="startButtonTwo">
+    <div id="black_car">
+      <img src="blackcar.png" alt="blackcar" id="blackImg">
+      <img src="flag.png" alt="Black Wins" id="BlackWinsImg" onclick="setUp()">
+          
+    </div>
+    <div id="red_car">
+      <img src="redcar.png" alt="redcar" id="redImg">
+      <img src="flag.png" alt="Red Wins" id="redWinsImg" onclick="setUp()">
+    </div>
+
+    <script src="scripts.js"></script>
+    
+  </body>
+</html>
